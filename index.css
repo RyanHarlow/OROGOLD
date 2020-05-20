@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-nav{
+    background-color: black;
+    height: 4rem;
+    color: #A5832E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-container{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-brand{
+    height: 65%;
+}
+
+#nav-right{
+    display: flex;
+    align-items: center;
+}
+
+#nav-email-link{
+    color:  #A5832E;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#nav-email-link:hover{
+    color:  white
+}
+
+#nav-reserva-button{
+    background-color: black;
+    color: #A5832E;
+    padding: 10px;
+    border: 2px solid #A5832E;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
