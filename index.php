@@ -41,14 +41,17 @@
         <p>El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies utilizando acietes de masaje</p>
         <div id='tratamientos-card-container'>
             <div>
+            <img class='tratamiento-img' src="./img/photo-1516238840914-94dfc0c873ae.jpg" alt="MASAGES CON ORO">
                 <h3>MASAJES CON ORO</h3>
                 <p><span>SPA Orogold ofrece tratamientos especializados de la mano de nuestros profesionales expertos, con productos excepcionales de marcas galardonadas</span></p>
             </div>
             <div>
+                <img class='tratamiento-img' src="./img/photo-1515377905703-c4788e51af15.jpg" alt="EXFOLIACIÓN CON PRODUCTOS NATURALES">
             <h3>EXFOLIACIÓN CON PRODUCTOS NATURALES</h3>
                 <p>El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies</p>
             </div>
             <div>
+            <img class='tratamiento-img' src="./img/photo-1552693673-1bf958298935.jpg" alt="RECONSTRUCCIÓN FACIAL">
             <h3>RECONSTRUCCIÓN FACIAL</h3>
                 <p>El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies</p>
             </div>
