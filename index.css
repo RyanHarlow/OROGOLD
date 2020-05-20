@@ -121,3 +121,17 @@
     font-size: 1.2rem;
     font-weight: 700;
 }
+
+#tratamientos-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#tratamientos-card-container{
+    display: flex;
+    justify-content: space-between;
+}
