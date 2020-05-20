@@ -17,6 +17,16 @@
         </div>
         </div>
     </nav>
+
+    <section id='main-hero'>
+        <div id='hero-content'>
+            <h1 id='hero-title'>OROGOLD</h1>
+            <h3 id='hero-subtitle'>Cuando belleza y glamour van de la mano.</h3>
+        </div>
+        <div>
+            kla;dsjf;lak
+        </div>
+    </section>
     
     <script src='index.js'></script>
 </body>

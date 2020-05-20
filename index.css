@@ -49,3 +49,25 @@
     font-size: 1rem;
     margin-left: 1rem;
 }
+
+#main-hero{
+    height: 90vh;
+    background-image: url('./img/bg-principal.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+#hero-title{
+    color: #A5832E;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+#hero-subtitle{
+    color: white;
+    font-size: 2rem;
+}
