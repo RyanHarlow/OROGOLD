@@ -136,6 +136,33 @@
     justify-content: space-between;
 }
 
+.tratamiento-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .tratamiento-img{
-    width: 20%
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%; 
+  height: 100%;
+  width: auto;
+}
+
+.tratamiento-img-tall{
+    display: inline;
+    margin: 0 auto;
+    margin-left: ; 
+  height: auto;
+  width: 100%;
 }
