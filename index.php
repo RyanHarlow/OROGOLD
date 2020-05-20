@@ -19,12 +19,21 @@
     </nav>
 
     <section id='main-hero'>
+        <div id='hero-content-container'>
         <div id='hero-content'>
             <h1 id='hero-title'>OROGOLD</h1>
             <h3 id='hero-subtitle'>Cuando belleza y glamour van de la mano.</h3>
         </div>
-        <div>
-            kla;dsjf;lak
+        <div id="reserva-form-container">
+            
+            <form id='reserva-form' action="">
+            <h2 class='form-item form-title'>Reserva ahora tu cita</h2>
+                <input class='form-item form-input' placeholder="nombre" type="text">
+                <input class='form-item form-input' placeholder="email" type="text">
+                <input class='form-item form-input' placeholder="telephono" type="text">
+                <button class='form-item form-button' >Reserva ahora</button>
+            </form>
+</div>
         </div>
     </section>
     

@@ -6,7 +6,7 @@
 
 #main-nav{
     background-color: black;
-    height: 4rem;
+    height: 5rem;
     color: #A5832E;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 #nav-container{
     height: 100%;
-    width: 75%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,14 +51,25 @@
 }
 
 #main-hero{
-    height: 90vh;
+    height: 88vh;
     background-image: url('./img/bg-principal.jpg');
     background-color: black;
     background-repeat: no-repeat;
     background-size: 80% auto;
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-around;
+}
+
+#hero-content-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-content{
+    width: 40%;
 }
 
 #hero-title{
@@ -69,5 +80,44 @@
 
 #hero-subtitle{
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    width: 80%;
+}
+
+#reserva-form-container{
+    background-color: white;
+    width: 45%;
+    border-radius: 5px;
+}
+
+#reserva-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin: 1.5rem;
+}
+
+.form-item{
+    margin: 1rem 0;
+}
+
+.form-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.form-input{
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-button{
+    padding: .7rem;
+    border-radius: 5px;
+    background-color: #A5832E;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
