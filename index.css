@@ -202,3 +202,22 @@
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+#quienes-somos-section{
+    height: 100vh;
+}
+
+#quienes-somos-content-container{
+    height: 65%;
+    background-image: url('./img/photo-1520473378652-85d9c4aee6cf.jpg');
+    background-color: #09070E;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    background-size: 100% auto;
+}
+
+#quienes-somos-text-container{
+    height: 100%;
+    width: 100%;
+     background-color: rgba(0, 0, 0, 0.7);  
+}

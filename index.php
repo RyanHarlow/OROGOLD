@@ -65,7 +65,18 @@
             </div>
         </div>
     </section>
-    
+    <section id='quienes-somos-section'>
+        <div id='quienes-somos-content-container'>
+            <div id='quienes-somos-text-container'>
+                <h2>QUIENES SOMOS</h2>
+                <p>El lujoso spa en Orogold, en Mexico, ofrece un refugio sublime en pleno corazón de la ciudad.</p>
+                <p>Los huéspedes pueden disfrutar de un gimnasio de última generación, una relajante sauna o duchas a chorro durante su escapada de 5 estrellas en nuestro hotel boutique en París. Por otra parte, nuestra nueva asociación con ZEAL COSMETICS asegura la disponibilidad de una gama de relajantes tratamientos faciales y corporales para mimarse y revitalizarse.</p>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </section>
 
     <script src='index.js'></script>
 </body>
