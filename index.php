@@ -130,13 +130,15 @@
         </div>
     </section>
     <section id='call-to-action'>
+        <div id=call-to-action-container>
             <h2 id='call-to-action-title'>NO DEJES PASAR ESTA OPORTUNIDAD</h2>
-            <p>
+            <p id='call-to-action-text'>
                 Sabías que un masaje debido a su acción calmante y analgésica viene dada mediante actos reflejos que afectan al sistema 
                 nervioso central o esto causa la liberación de endorfinas que anulan la sensaciones de dolor en el cerebro. El estímulo de los 
                 mecanos receptores mediante el masaje se ha demostrado que alivia el dolor y la tensión muscular.
             </p>
-            <button>Reserva ahora</button>
+            <button id='call-to-action-button'>Reserva ahora</button>
+            </div>
     </section>
 
     <!-- jquery and slick library for img carousel -->

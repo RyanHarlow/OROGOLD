@@ -9,3 +9,10 @@ $('.image-carousel-container').slick({
     autoplay: true,
   autoplaySpeed: 2000,
   });
+
+
+  $("#call-to-action-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#main-hero").offset().top},
+        'slow');
+});
