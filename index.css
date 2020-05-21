@@ -248,3 +248,14 @@
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+.image-carousel-container{
+    display: flex;
+    height: 35%;
+    overflow: hidden;
+}
+
+.carousel-img{
+    height: 35vh;
+    
+}
