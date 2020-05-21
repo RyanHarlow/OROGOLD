@@ -21,16 +21,16 @@
     justify-content: space-between;
 }
 
-#nav-brand{
+.nav-brand{
     height: 65%;
 }
 
-#nav-right{
+.nav-right{
     display: flex;
     align-items: center;
 }
 
-#nav-email-link{
+.nav-link{
     color:  #A5832E;
     text-decoration: none;
     font-weight: 700;
@@ -343,4 +343,37 @@
     padding: 1rem 4rem;
     border-radius: 5px;
 
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+
+#footer-container{
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    
+}
+
+.nav-link-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icon{
+    height: 1rem;
+}
+
+.nav-phone{
+    margin-left: 1rem;
+    color: #A5832E;
+    font-weight: 700;
 }

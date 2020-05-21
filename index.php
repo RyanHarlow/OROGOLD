@@ -16,9 +16,9 @@
 <body>
     <nav id='main-nav'>
         <div id='nav-container'>
-            <img id='nav-brand' src="./img/cropped-orogold-logo-dgold.png" alt="OROGOLD logo" />
-            <div id='nav-right'>
-                <a id='nav-email-link' href="mailto: orogoldspa@orogold.com">orogoldspa@orogold.com</a>
+            <img class='nav-brand' src="./img/cropped-orogold-logo-dgold.png" alt="OROGOLD logo" />
+            <div class='nav-right'>
+                <a class='nav-link' href="mailto: orogoldspa@orogold.com">orogoldspa@orogold.com</a>
                 <button id='nav-reserva-button'>Reserva ahora</button>
             </div>
         </div>
@@ -140,6 +140,16 @@
             <button id='call-to-action-button'>Reserva ahora</button>
             </div>
     </section>
+    <footer>
+        <div id='footer-container'>
+        <img class='nav-brand' src="./img/cropped-orogold-logo-dgold.png" alt="OROGOLD logo" />
+            <div class='nav-right'>
+                <a class='nav-link' href="mailto: orogoldspa@orogold.com"><div class='nav-link-container'><img class='footer-icon' src="./img/mail.png" alt=""> orogoldspa@orogold.com</div></a>
+                <div class='nav-phone nav-link-container'><img class='footer-icon' src="./img/telephone.png" alt=""> + 52 5502630032</div>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- jquery and slick library for img carousel -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
