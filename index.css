@@ -310,3 +310,13 @@
     border-radius: 5px;
     width: 60%;
 }
+
+#call-to-action{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
