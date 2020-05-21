@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- slick css library and theme for img carousel -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
@@ -82,34 +83,54 @@
         </div>
         <div class='image-carousel-container'>
             <div>
-            <img class='carousel-img' src="./img/photo-1489659639091-8b687bc4386e.jpg" alt="">
-</div>
-            <div>
-            <img class='carousel-img' src="./img/photo-1554057009-6798cb3d4a04.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1489659639091-8b687bc4386e.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1531853121101-cb94c8ed218d.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1554057009-6798cb3d4a04.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1560944527-a4a429848866.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1531853121101-cb94c8ed218d.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1553540751-988bd7918c7e.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1560944527-a4a429848866.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1555820585-c5ae44394b79.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1553540751-988bd7918c7e.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1559058922-5d29e1f00075.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1555820585-c5ae44394b79.jpg" alt="">
             </div>
             <div>
-            <img class='carousel-img' src="./img/photo-1513104806186-1b00f3e7a65e.jpg" alt="">
+                <img class='carousel-img' src="./img/photo-1559058922-5d29e1f00075.jpg" alt="">
+            </div>
+            <div>
+                <img class='carousel-img' src="./img/photo-1513104806186-1b00f3e7a65e.jpg" alt="">
             </div>
         </div>
     </section>
 
+    <section id='map-section'>
+        <div id='map-content-container'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6974274609606!2d-99.16457804998504!3d19.425474986823996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6b3dbaf75b%3A0x8c21bd502927d0f7!2sAv.%20Insurgentes%20Sur%20105%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006600%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1590036041348!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div id='map-text-content'>
+                <div id='horarios-container'>
+                    <h3>HORARIOS</h3>
+                    <p>Lunes a ciernes de 10:00 a 19:30</p>
+                    <p>Sábados, domingos y festivos de 10:00 a 18:30</p>
+                </div>
+                <div id='direccion-container'>
+                    <h3>DIRECCIÓN</h3>
+                    <p>Av. Insurgentes Sur 105, Roma Sur, Cuauhtémmoc, 06600 Ciudad de México, CDMX, México</p>
+                    <button>Ver en Mapa</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jquery and slick library for img carousel -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script src='index.js'></script>
 </body>
 

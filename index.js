@@ -1,3 +1,5 @@
+
+//sets up image carousel using the slick library
 $('.image-carousel-container').slick({
     dots: false,
     infinite: true,
