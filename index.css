@@ -258,3 +258,55 @@
 .carousel-img{
     height: 35vh;
 }
+
+#map-content-container{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;   
+}
+
+#map-text-content{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%
+}
+
+.map-frame{
+    width: 70%;
+    height: 70vh;
+}
+
+#horarios-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+
+#direccion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.map-content-title{
+    color: #A5832E;
+}
+
+.map-text-content{
+    font-size: 1.3rem;
+    color: #262626;
+}
+
+#map-button{
+    font-size: 1.3rem;
+    color: #262626;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 60%;
+}

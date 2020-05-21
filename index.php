@@ -111,17 +111,20 @@
 
     <section id='map-section'>
         <div id='map-content-container'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6974274609606!2d-99.16457804998504!3d19.425474986823996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6b3dbaf75b%3A0x8c21bd502927d0f7!2sAv.%20Insurgentes%20Sur%20105%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006600%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1590036041348!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6974274609606!2d-99.16457804998504!3d19.425474986823996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6b3dbaf75b%3A0x8c21bd502927d0f7!2sAv.%20Insurgentes%20Sur%20105%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006600%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1590036041348!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" class='map-frame'></iframe>
             <div id='map-text-content'>
                 <div id='horarios-container'>
-                    <h3>HORARIOS</h3>
-                    <p>Lunes a ciernes de 10:00 a 19:30</p>
-                    <p>Sábados, domingos y festivos de 10:00 a 18:30</p>
+                    <h3 class='map-content-title'>HORARIOS</h3>
+                    <div>
+                    <p class='map-text-content'>Lunes a ciernes de 10:00 a 19:30</p>
+                    <p class='map-text-content'>Sábados, domingos y festivos de 10:00 a 18:30</p>
+                    </div>
+                    <p class='map-text-content'>Pueden concertarse tratamientos fuera del horario de apertura indicado con cita previa.</p>
                 </div>
                 <div id='direccion-container'>
-                    <h3>DIRECCIÓN</h3>
-                    <p>Av. Insurgentes Sur 105, Roma Sur, Cuauhtémmoc, 06600 Ciudad de México, CDMX, México</p>
-                    <button>Ver en Mapa</button>
+                    <h3 class='map-content-title'>DIRECCIÓN</h3>
+                    <p class='map-text-content'>Av. Insurgentes Sur 105, Roma Sur, Cuauhtémmoc, 06600 Ciudad de México, CDMX, México</p>
+                    <a href="https://www.google.com/maps/place/Av.+Insurgentes+Sur+105,+Roma+Sur,+Cuauht%C3%A9moc,+06600+Ciudad+de+M%C3%A9xico,+CDMX,+Mexico/@19.42548,-99.1645727,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ff6b3dbaf75b:0x8c21bd502927d0f7!8m2!3d19.425475!4d-99.162384" target='_blank'><button id='map-button'>Ver en Mapa</button></a>
                 </div>
             </div>
         </div>
