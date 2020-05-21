@@ -34,10 +34,10 @@
 
                 <form id='reserva-form' action="">
                     <h2 class='form-item form-title'>Reserva ahora tu cita</h2>
-                    <input class='form-item form-input' placeholder="nombre" type="text">
-                    <input class='form-item form-input' placeholder="email" type="text">
-                    <input class='form-item form-input' placeholder="telephono" type="text">
-                    <button class='form-item form-button'>Reserva ahora</button>
+                    <input id='nombre-input' class='form-item form-input' placeholder="nombre" type="text">
+                    <input id='email-input' class='form-item form-input' placeholder="email" type="text">
+                    <input id='telephono-input' class='form-item form-input' placeholder="telephono" type="text">
+                    <button id='reserva-button' class='form-item form-button'>Reserva ahora</button>
                 </form>
             </div>
         </div>
@@ -154,6 +154,8 @@
     <!-- jquery and slick library for img carousel -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js'></script>
 
     <script src='index.js'></script>
 </body>

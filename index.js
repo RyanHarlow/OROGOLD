@@ -16,3 +16,30 @@ $('.image-carousel-container').slick({
         scrollTop: $("#main-hero").offset().top},
         'slow');
 });
+
+const reservaForm = document.querySelector('#reserva-form');
+
+reservaForm.addEventListener('submit', async function(evt){
+  evt.preventDefault();
+  const nombre = document.querySelector('#nombre-input').value;
+  const email = document.querySelector('#email-input').value;
+  const telephono = document.querySelector('#telephono-input').value;
+
+  let details = {nombre, email, telephono};
+
+  var formBody = [];
+for (var property in details) {
+  var encodedKey = encodeURIComponent(property);
+  var encodedValue = encodeURIComponent(details[property]);
+  formBody.push(encodedKey + "=" + encodedValue);
+}
+formBody = formBody.join("&");
+
+
+axios.post('./reserva.php', formBody)
+  .then(res => {
+    console.log(res)
+  }) 
+  
+
+})
