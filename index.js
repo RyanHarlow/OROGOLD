@@ -10,6 +10,7 @@ $('.image-carousel-container').slick({
 });
 
 
+//sets up scroll effect for call to action button scrolls to main hero
 $("#call-to-action-button").click(function() {
     $('html,body').animate({
             scrollTop: $("#main-hero").offset().top
@@ -17,6 +18,8 @@ $("#call-to-action-button").click(function() {
         'slow');
 });
 
+
+//sets up scroll effect for nav reserva button scrolls to main hero
 $("#nav-reserva-button").click(function() {
     $('html,body').animate({
             scrollTop: $("#main-hero").offset().top
@@ -26,6 +29,8 @@ $("#nav-reserva-button").click(function() {
 
 const reservaForm = document.querySelector('#reserva-form');
 
+
+//on form submit prevents submission and send data asyncronously with ajax request using axios
 reservaForm.addEventListener('submit', async function(evt) {
     evt.preventDefault();
     const nombre = document.querySelector('#nombre-input').value;
@@ -46,7 +51,8 @@ reservaForm.addEventListener('submit', async function(evt) {
     axios.post('./reserva.php', formBody)
         .then(res => {
             let modalMessage = document.querySelector('#modal-message');
-            console.log(res.data)
+
+            //setting modal message
             if (res.data.success) {
                 modalMessage.innerHTML = res.data.success;
                 toggleModal();
@@ -62,11 +68,12 @@ reservaForm.addEventListener('submit', async function(evt) {
 
 })
 
-
+//close modal when x is clicked
 document.querySelector('.close-modal').addEventListener('click', (e) => {
     toggleModal();
 })
 
+//toggles modal display
 function toggleModal() {
     let modal = document.querySelector('.modal');
     if (modal.style.display === "none") {
