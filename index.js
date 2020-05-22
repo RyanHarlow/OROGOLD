@@ -7,6 +7,15 @@ $('.image-carousel-container').slick({
     variableWidth: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+        }
+    }]
 });
 
 
