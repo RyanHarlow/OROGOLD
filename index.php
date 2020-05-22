@@ -8,7 +8,6 @@
     <!-- slick css library and theme for img carousel -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
     <link rel="stylesheet" href="index.css">
     <title>OROGOLD</title>
 </head>
@@ -24,6 +23,16 @@
         </div>
     </nav>
 
+    <div class="modal" style='display: none'>
+  <div class="overlay"></div>
+  <div class="modal_content">
+    <!-- Dynamic Section -->
+    <h2 id='modal-message'></h2>
+    <button title="Close" class="close-modal">
+     X
+    </button>
+  </div>
+</div>
     <section id='main-hero'>
         <div id='hero-content-container'>
             <div id='hero-content'>
