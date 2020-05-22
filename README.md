@@ -1,0 +1,1 @@
+To set up enter db credentials in reserva.php
