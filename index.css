@@ -222,10 +222,6 @@
 }
 
 .tratamiento-card {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; */
     margin-bottom: 1rem;
     width: 28%;
     text-align: center;
@@ -328,9 +324,17 @@
     height: 35vh;
 }
 
+#map-section-container {
+    background: linear-gradient(175deg, #F5F5F5 50%, white 50%)
+}
+
+#map-section {
+    padding: 5rem 0;
+}
+
 #map-content-container {
     width: 80%;
-    margin: 5rem auto;
+    margin: 0rem auto;
     display: flex;
 }
 
