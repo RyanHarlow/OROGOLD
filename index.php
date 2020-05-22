@@ -61,21 +61,27 @@
                 <div class='img-cropper'>
                     <img class='tratamiento-img-tall' src="./img/photo-1516238840914-94dfc0c873ae.jpg" alt="MASAGES CON ORO">
                 </div>
+                <div class='card-title-container'>
                 <h3 class='card-title'>MASAJES CON ORO</h3>
+                </div>
                 <p class='card-content'><strong>SPA Orogold</strong> ofrece tratamientos especializados de la mano de nuestros profesionales expertos, con productos excepcionales de marcas galardonadas</p>
             </div>
             <div class='tratamiento-card'>
                 <div class='img-cropper'>
                     <img class='tratamiento-img' src="./img/photo-1515377905703-c4788e51af15.jpg" alt="EXFOLIACIÓN CON PRODUCTOS NATURALES">
                 </div>
+                <div class='card-title-container'>
                 <h3 class='card-title'>EXFOLIACIÓN CON PRODUCTOS NATURALES</h3>
+                </div>
                 <p class='card-content'>El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies</p>
             </div>
             <div class='tratamiento-card'>
                 <div class='img-cropper'>
                     <img class='tratamiento-img' src="./img/photo-1552693673-1bf958298935.jpg" alt="RECONSTRUCCIÓN FACIAL">
                 </div>
+                <div class='card-title-container'>
                 <h3 class='card-title'>RECONSTRUCCIÓN FACIAL</h3>
+                </div>
                 <p class='card-content'>El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies</p>
             </div>
         </div>
