@@ -17,6 +17,13 @@ $("#call-to-action-button").click(function() {
         'slow');
 });
 
+$("#nav-reserva-button").click(function() {
+    $('html,body').animate({
+            scrollTop: $("#main-hero").offset().top
+        },
+        'slow');
+});
+
 const reservaForm = document.querySelector('#reserva-form');
 
 reservaForm.addEventListener('submit', async function(evt) {

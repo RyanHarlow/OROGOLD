@@ -15,7 +15,9 @@
 <body>
     <nav id='main-nav'>
         <div id='nav-container'>
+            <a href="/">
             <img class='nav-brand' src="./img/cropped-orogold-logo-dgold.png" alt="OROGOLD logo" />
+            </a>
             <div class='nav-right'>
                 <a class='nav-link' href="mailto: orogoldspa@orogold.com">orogoldspa@orogold.com</a>
                 <button id='nav-reserva-button'>Reserva ahora</button>
