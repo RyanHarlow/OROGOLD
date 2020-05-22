@@ -12,7 +12,7 @@ if(!isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["telepho
     $data = [ 'error' => 'Por favor incluya todas las entradas' ];
     echo json_encode($data);
 }else if(empty($_POST["nombre"]) || empty($_POST["email"]) || empty($_POST["telephono"])){
-    $data = [ 'error' => 'Por favor incluya todas las entradas' ];
+    $data = [ 'error' => 'Por favor complete el formulario completo' ];
     echo json_encode($data);
 }
 else{
