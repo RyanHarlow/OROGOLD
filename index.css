@@ -204,12 +204,7 @@
     font-weight: 300;
 }
 
-#quienes-somos-section {
-    height: 100vh;
-}
-
 #quienes-somos-content-container {
-    height: 65%;
     background-image: url('./img/photo-1520473378652-85d9c4aee6cf.jpg');
     background-color: #09070E;
     background-repeat: no-repeat;
@@ -230,8 +225,7 @@
 }
 
 #quienes-somos-text-container {
-    height: 60%;
-    width: 60%;
+    margin: 5vh 10vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -239,18 +233,18 @@
 
 #quienes-somos-title {
     color: #E4D13A;
-    font-size: 2.3rem;
+    font-size: 7vh;
+    margin-bottom: 5vw;
 }
 
 .quienes-somos-text {
     color: white;
-    font-size: 1.2rem;
+    font-size: 3vh;
     font-weight: 600;
 }
 
 .image-carousel-container {
     display: flex;
-    height: 35%;
     overflow: hidden;
 }
 
@@ -264,12 +258,11 @@
     display: flex;
 }
 
-#map-text-content {
+#map-text-content-content {
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%
 }
 
 .map-frame {
@@ -344,19 +337,17 @@
 }
 
 footer {
-    height: 30vh;
-    width: 100%;
     background-color: black;
 }
 
 #footer-container {
     margin: 0 auto;
     width: 80%;
-    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    padding-bottom: 5vh;
 }
 
 .nav-link-container {
@@ -367,6 +358,7 @@ footer {
 
 .footer-icon {
     height: 1rem;
+    margin-right: .5em;
 }
 
 .nav-phone {
@@ -448,5 +440,31 @@ footer {
         position: relative;
         overflow: hidden;
         border-radius: 50%;
+    }
+    #map-content-container {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #map-text-content-container {
+        margin-top: 3vh;
+    }
+    .map-frame {
+        width: 90%;
+    }
+    #horarios-container {
+        margin-top: 3vh;
+    }
+    #direccion-container {
+        margin-top: 3vh;
+    }
+    #map-button {
+        margin-top: 3vh;
+    }
+    #footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
