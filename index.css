@@ -220,6 +220,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .tratamiento-card {
@@ -234,8 +235,8 @@
 }
 
 .img-cropper {
-    width: 175px;
-    height: 175px;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
